@@ -1,0 +1,45 @@
+.app_hedaer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid lightgray;
+}
+
+.app_hedaer > .form_data{
+
+    width: 40%;
+}
+
+input{
+    font-size: 20px;
+    font-weight: 500;
+    width: 100%;
+    padding: 8px 12px;
+    margin-bottom: 15px;
+    border: none;
+    border: 1px solid #dfe3e6;
+    border-radius: 5px;
+    color: black;
+    background-color: #f9f9f9;
+}
+
+.jira_statusButton{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.status_part1{
+
+    display: flex;
+    gap: 10px;
+}
+
+.add_button{
+        background-color: rgb(14, 129, 206);
+        color: white;
+}
+

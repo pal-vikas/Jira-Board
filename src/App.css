@@ -1,0 +1,25 @@
+.app{
+    display: grid;
+    grid-template-rows: 120px auto;
+}
+
+.app_main{
+
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 8%;
+}
+
+
+.tag_button{
+
+    font-size: 12px;
+    font-weight: 500;
+    padding: 7px 12px;
+    background-color: white;
+    border: none;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    
+
+}
