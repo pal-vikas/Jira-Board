@@ -2,17 +2,20 @@ import './TaskCard.css'
 import Tag from "../TagButton/Tag"
 import DeleteIcon from '../../assets/deleteIcon.png'
 
-function TaskCard() {
+function TaskCard({title, tags, handleDelete, index}) {
   return (
    <article className='task_card'>
-            <p className='task_text'>This is sample Test</p>
+            <p className='task_text'>{title}</p>
             <div className="task_card_bottom_line">
             <div className="task_card_tags">
-                <Tag tagName="DEV"/>
-                <Tag tagName="QA"/>
+              {
+                tags.map((tag,index)=>(
+                  <Tag key={index} tagName={tag} selected/>
+                ))
+              }
             </div>
-              <div className="task_delete">
-                  <img src={DeleteIcon} alt="" className='delete_icon' />
+              <div className="task_delete" onClick={()=>{handleDelete(index)}}>
+                  <img src={DeleteIcon} alt="" className='delete_icon'  />
               </div>
             </div>
    </article>

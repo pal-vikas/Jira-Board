@@ -1,13 +1,18 @@
 .task_column{
 
-    /* width: 30%; */
+    /* width: 100%; */
     margin: 20px;
+    border-left: 2px solid lightgray;
+    height:590px;
+
+     
 }
 
 .task_column_heading{
 
      display: flex;
      align-items: center;
+     margin-left: 10px;
 }
 
 .task_column_icon{
@@ -15,3 +20,4 @@
     width: 25px;
     margin-right: 5px;
 }
+
