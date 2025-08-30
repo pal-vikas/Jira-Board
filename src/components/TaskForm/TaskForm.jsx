@@ -56,7 +56,6 @@ function TaskForm({setTasks}) {
                         </div>
                         <div className="status_part1">
                             <select  name="status"  className="task_status tag_button" onChange={handleChange}>
-                                <option disabled selected hidden>Select Status</option>
                                 <option value="Read for Development">Read for Development</option>
                                 <option value="In Progress">In Progress</option>
                                 <option value="Ready for test">Ready for test</option>

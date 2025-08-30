@@ -7,7 +7,7 @@ import { useState } from 'react'
 function App() {
 
   const [tasks, setTasks] = useState([]);
-  console.log(tasks);
+  // console.log(tasks);
 
   const handleDelete =(taskIndex)=>{
      const newTask= tasks.filter((tasks, index)=> index !== taskIndex);
