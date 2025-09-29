@@ -11,4 +11,3 @@ Currently, two official plugins are available:
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information in your project.
 
-#Added features like adding, displaying & deleting on UI from User Input.
